@@ -9,7 +9,7 @@ Route::get('/', function () {
 });
 
 Route::get('/testmp', function () {
-    // MercadoPago\SDK::setAccessToken('APP_USR-8078081797715593-070117-b10d51ad5dd7a5c23327104fe532ca90-700566971');
+    // MercadoPago\SDK::setAccessToken(config('mp.MP'));
     // $MP = new MercadoPago\SDK();
     //---
     // $payment  = $MP->get('/v1/payments/search?external_reference='.'rKY1QaYp341FCs4VPZsez4krN');
