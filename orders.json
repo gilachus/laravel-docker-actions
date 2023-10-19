@@ -1,0 +1,59 @@
+{
+    "success": true,
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 10962,
+                "channel_uuid": "6202",
+                "shipping": {
+                    "city": { "id": "0000", "name": "Floridablanca" },
+                    "state": { "id": 2, "name": "Santander" },
+                    "billing": {
+                        "city": { "id": "0000", "name": "Floridablanca" },
+                        "state": { "id": 2, "name": "Santander" },
+                        "country": { "id": 52, "name": "Colombia" },
+                        "address_1": "Calle 197 # 15-04 Conjunto Residencial Versalles Campestre casa g14",
+                        "address_2": "Conjunto Residencial Versalles Campestre casa g14",
+                        "shippings": [],
+                        "postal_code": "68276"
+                    },
+                    "country": { "id": 52, "name": "Colombia" },
+                    "address_1": "Calle 197 # 15-04 Conjunto Residencial Versalles Campestre casa g14",
+                    "address_2": "Conjunto Residencial Versalles Campestre casa g14",
+                    "shippings": [],
+                    "postal_code": "68276"
+                },
+                "subtotal": 469900,
+                "total": 485900,
+                "taxes": 77580.67,
+                "discount": 0,
+                "mailed": true,
+                "on_time": null,
+                "created_at": "2023-05-13T00:35:14.000000Z",
+                "updated_at": "2023-05-13T00:35:14.000000Z",
+                "deleted_at": null
+            }
+        ],
+        "first_page_url": "http://laraveldummy.test/orders?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://laraveldummy.test/orders?page=1",
+        "links": [
+            { "url": null, "label": "&laquo; Previous", "active": false },
+            {
+                "url": "http://laraveldummy.test/orders?page=1",
+                "label": "1",
+                "active": true
+            },
+            { "url": null, "label": "Next &raquo;", "active": false }
+        ],
+        "next_page_url": null,
+        "path": "http://laraveldummy.test/orders",
+        "per_page": 15,
+        "prev_page_url": null,
+        "to": 1,
+        "total": 1
+    },
+    "message": "Orders retrieved successfully"
+}
